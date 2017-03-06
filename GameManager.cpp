@@ -61,7 +61,6 @@ void GameManager::draw()
 				bool print = false;			
 				for (int k = 0; k != m_tailLength; k++)
 				{
-					//if (m_tailX[k] == j && m_tailY[k] == i)
 					if ((*m_tailX)[k] == j && (*m_tailY)[k] == i)
 					{
 						std::cout << "o";
